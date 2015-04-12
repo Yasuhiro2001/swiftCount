@@ -26,15 +26,17 @@ var number:Int=0
     }
     
     @IBAction  func  plus() {
-        number=number+1
+        number=number+2
         label.text=String(number)
         
     }
     
     @IBAction func minus(){
-        number=number-1
+        number=number-2
         label.text=String(number)
     }
+    
+    
 }
 
 
